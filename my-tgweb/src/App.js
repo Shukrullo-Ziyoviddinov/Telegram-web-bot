@@ -57,7 +57,7 @@ const App = () => {
 
 		if (queryID) {
 			fetch(
-				'https://telegramwebapibot-b671371abfbb.herokuapp.com/web-data',
+				'https://telegram-web-bot-1.onrender.com/web-data',
 				{
 					method: 'POST',
 					headers: {

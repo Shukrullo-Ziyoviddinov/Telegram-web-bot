@@ -56,5 +56,12 @@ export function getData() {
 				'https://sammi.ac/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FtIMgibghQveiDeJeXDPI&w=3840&q=75',
 			id: 8,
 		},
+		{
+			title: 'TensorflowJS',
+			price: 28.99,
+			Image:
+				'https://sammi.ac/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FtIMgibghQveiDeJeXDPI&w=3840&q=75',
+			id: 9,
+		},
 	];
 }

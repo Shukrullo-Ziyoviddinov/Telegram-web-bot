@@ -1,5 +1,24 @@
+:root {
+  --bg-body: #12101f;
+  --bg-card: #1c1a2e;
+  --border-subtle: rgba(255, 255, 255, 0.09);
+  --text-primary: #f2f0f8;
+  --text-muted: #a39eb8;
+  --card-btn-add: #6d5ad6;
+  --card-btn-add-hover: #7f6ee8;
+  --card-btn-remove: #a8557a;
+  --card-btn-remove-hover: #bc6d8f;
+  --badge-bg: #8b7cff;
+  --checkout-bg: #2d8f7e;
+  --checkout-bg-hover: #38a894;
+  --checkout-shadow: rgba(45, 143, 126, 0.35);
+}
+
 body {
   margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg-body);
+  color: var(--text-primary);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

@@ -4,8 +4,6 @@ const cors = require('cors');
 
 const token = '8797747238:AAG7pFPyFk5bM0bDC-eN9iMoT0BD6Rz5ORc';
 
-// const token = '6392124644:AAGweSFNWmhx3pOXXRLlcFUTgb_tGpS2Sag';
-
 const bot = new TelegramBot(token, { polling: true });
 const app = express();
 
